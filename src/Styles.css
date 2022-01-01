@@ -1,0 +1,30 @@
+body
+{
+    font-family: 'Montserrat';
+    background-color: #2E3436;
+}
+
+p
+{
+    color: white;
+}
+
+h1
+{
+    color: #555753;
+}
+
+input, textarea
+{
+    background-color: #555753;
+    color: white;
+    font-family: 'Open Sans';
+    border: 0;
+}
+
+button
+{
+    font-family: 'Montserrat';
+    border: 1;
+    border-color: #555753;
+}

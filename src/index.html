@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Just Websockets Example Client</title>
+	<meta charset="UTF-8" />
+    <link href="Styles.css" rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="Index.js"></script>
+</head>
+<body onload="init()">
+    <h1>Just WebSockets</h1>
+    <div>
+        <p>Host</p><input type="input" id="host" value="localhost"/><br>
+        <p>Port</p><input type="input" id="port" value="3000"/><br><br>
+        <button id="connectButton" type="button" onclick="connect()">Connect</button>
+        <p>Message</p><input type="input" id="message" value="Write message here"/><br><br>
+        <button type="button" onclick="send()">Send</button>
+        <p>Output</p>
+        <textarea id="output" readonly="true" rows="10" cols="40"></textarea>
+    </div>
+</body>
+</html>

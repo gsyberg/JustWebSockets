@@ -1,3 +1,9 @@
+<!--
+  Title: Just WebSockets
+  Description: A packaging of the things you need to set up a secure C++ WebSockets server with one command. Essentially a bazel version of uWebSockets. Tags: bazel uwebsockets usockets rapidjson openssl
+  Author: Göran Syberg Falguera
+  -->
+
 # Just WebSockets
 This is Just WebSockets. A packaging of the things you need to set up a secure C++ WebSockets server with one command. Packaged with RapidJSON serialization and a test client in JavaScript. Bazel will handle the few dependencies there are for you. Just WebSockets is essentially [uWebSockets](https://github.com/uNetworking/uWebSockets) packaged with some other stuff for use with Bazel.
 

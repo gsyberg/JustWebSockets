@@ -10,7 +10,7 @@ This is Just WebSockets. A packaging of the things you need to set up a secure C
 You can test your server with the provided test client. Just open `index.html` in a browser.
 - Add exception for the provided development certificates by pointing the browser to `https://localhost:3000` and accepting the certificate. Now the test client can connect to the server.
 - Make sure you replace the provided temporary certificates with your own for any real implementation.
-- You can generate your own development certificates with: `sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt`.
+- You can generate your own development certificates with: `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt`.
 
 # Manuals
 - [uWebSockets](https://github.com/uNetworking/uWebSockets/blob/master/misc/READMORE.md)

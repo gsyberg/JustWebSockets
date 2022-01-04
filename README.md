@@ -24,4 +24,4 @@ You can test your server with the provided test client. Just open `index.html` i
 
 # Notes
 - Only OpenSSL, uSockets and uWebSockets are needed. You can remove the dependency on RapidJSON if you want to serialize the data soem other way.
-- You can start the server with another port if you want to, just add a port number to the start command, i.e. for pport 4000 run: `bazel run server 4000`.
+- You can start the server with another port if you want to, just add a port number to the start command, i.e. for port 4000 run: `bazel run server 4000`.

@@ -23,9 +23,9 @@ int main(int argc, char * argv[])
     }
 
     std::cout << jw::Utils::getLogo() << "Just WebSockets server starting.\n";
-
-	jw::JustWebSocket webSocket(port);
-	webSocket.run();
+	
+    jw::JustWebSocket webSocket(port);
+    webSocket.run();
 
     return 0;
 }
